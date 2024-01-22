@@ -6,7 +6,6 @@ import './App.css'
 function App() {
   const { Codox } = window as any
   const apiKey = process.env.REACT_APP_CODOX_API_KEY!
-  console.log(apiKey)
   const username = 'Kera'
   const [docs, updateDocs] = useState([
     { "id": "8d52d64b-f7c5-40de-8137-629376ffbc76", name: "doc1", "content": "Hello World" },
